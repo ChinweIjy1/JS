@@ -127,4 +127,52 @@ console.timeEnd();  //  ->  default:  0.108154296875  ms
 
 
 
+let  str  =  "java  script  language";
+   
+console.log(str.length);  //  ->  20
+console.log('test'.length);  //  ->  4
+   
+console.log(str.charAt(0));  //  ->  'j'
+console.log('abc'.charAt(1));  //  ->  'b'
+   
+console.log(str.slice(0,  4));  //  ->  'java'
+console.log('test'.slice(1,  3));  //  ->  'es'
+   
+console.log(str.split('  '));  //  ->  ['java',  'script',  'language']
+console.log('192.168.1.1'.split('.'));    //  ->  ['192',  '168',  '1',  '1']
 
+
+console.log(Number(42));  //  ->  42
+   
+console.log(Number("11"));  //  ->  11
+console.log(Number("0x11"));  //  ->  17
+console.log(Number("0o11"));  //  ->  9
+console.log(Number("0b11"));  //  ->  3
+console.log(Number("12e3"));  //    ->  12000
+console.log(Number("Infinity"));//  ->  Infinity
+console.log(Number("text"));  //  ->  NaN
+   
+console.log(Number(14n));  //  ->  14
+console.log(Number(123456789123456789123n));  //  -  >    123456789123
+456800000
+   
+console.log(Number(true));  //  ->  1
+console.log(Number(false));  //  ->  0
+   
+console.log(Number(undefined));  //    ->  NaN
+   
+console.log(Number(null));//  ->  0
+
+
+console.log(Boolean(true));  //  ->  true
+   
+console.log(Boolean(42));  //  ->  true
+console.log(Boolean(0));  //  ->  false
+console.log(Boolean(NaN));  //  ->  false
+   
+console.log(Boolean("text"));  //  ->  true
+console.log(Boolean(""));  //  ->  false
+   
+console.log(Boolean(undefined));  //  ->  false
+   
+console.log(Boolean(null));  //  ->  false
