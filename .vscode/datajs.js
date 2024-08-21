@@ -112,12 +112,19 @@ let  testt  =  "100"  +  "10";
 console.log(testt);  //  ->  10010   // This is seen as concatination of strings and not addition of numbers
 console.log(typeof  testt);  //  ->  string
 
-//string interpolation
+//string interpolation using backtick and dollar sign
 let  countrry  =  "Malawi";
 let  contineent  =  "Africa";
    
 let  sentence  =  `  ${countrry}  is  located  in  ${contineent}.`;
 console.log(sentence);  //  ->  Malawi  is  located  in  Africa.
+
+// A method is a special kind of function that belongs to an object.
+//Objects are complex data types, which can consist of many values (stored in properties) and methods
+console.time();
+console.log("test  console");  //  ->  test  console
+console.timeEnd();  //  ->  default:  0.108154296875  ms
+
 
 
 
