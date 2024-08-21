@@ -86,3 +86,38 @@ let  message2  =  'Cyclone  "Cilida"  to  pass  close  to  Mauritius.';
    
 console.log(message1);  //  ->  The  vessel  'Mars'  called  at  the  port.
 console.log(message2);  //  ->  Cyclone  "Cilida"  to  pass  close  to  Mauritius.
+
+let  message11  =  'The  vessel  \'Mars\'  called  at  the  port.';
+let  message22  =  "Cyclone  \"Cilida\"  to  pass  close  to  Mauritius.";
+   
+console.log(message11);  //  ->  The  vessel  'Mars'  called  at  the  port.
+console.log(message22);  //  ->  Cyclone  "Cilida"  to  pass  close  to  Mauritius.
+   
+let  path  =  "C:\\Windows";
+console.log(path);  //  ->  C:\Windows
+
+
+let  pathh  =  "C:\\Windows"  -  "Windows";
+console.log(pathh);  //  ->  NaN
+   
+let  test  =  "100"  -  "10";   // This is seen as a minus operator
+console.log(test);  //  ->  90
+console.log(typeof  test);  //  ->  number
+
+
+let  patth  =  "C:\\"  +  "Windows";
+console.log(patth);  //  ->  C:\Windows
+   
+let  testt  =  "100"  +  "10";
+console.log(testt);  //  ->  10010   // This is seen as concatination of strings and not addition of numbers
+console.log(typeof  testt);  //  ->  string
+
+//string interpolation
+let  countrry  =  "Malawi";
+let  contineent  =  "Africa";
+   
+let  sentence  =  `  ${countrry}  is  located  in  ${contineent}.`;
+console.log(sentence);  //  ->  Malawi  is  located  in  Africa.
+
+
+
